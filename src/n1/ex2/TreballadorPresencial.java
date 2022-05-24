@@ -24,6 +24,6 @@ public class TreballadorPresencial extends Treballador {
     @Deprecated
     public void horasExtra(Double horasTrabajadasExtra, Double numHoresTreballades, Double kmRecorreguts){
         Double sueldoExtra = calcularSou(numHoresTreballades, kmRecorreguts);
-        System.out.println("Te toca un total de  "+ (horasTrabajadasExtra * 0.5 + sueldoExtra) +" € extra en tu sueldo");
+        System.out.println("Te toca un total de  "+ (horasTrabajadasExtra * 0.5 + sueldoExtra) +" € extra en tu sueldo ");
     }
 }
